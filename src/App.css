@@ -1,0 +1,595 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.nav-link{
+  color: #555;
+  padding: .3rem .5rem .3rem 1rem;
+  border-left: 2px solid transparent;
+  text-decoration: none;
+  border-bottom: none;
+  -webkit-transition: 0.3s;
+  /* Safari */
+
+  transition : 0.3s;
+}
+.navbar{
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 0 22px;
+  position: relative;
+  z-index: 2;
+  padding-left: calc(22px + constant(safe-area-inset-left));
+  padding-right: calc(22px + constant(safe-area-inset-right));
+}
+
+
+.nav-link:hover {
+  color: #333;
+  border-bottom: 2px solid #333;
+}
+.country-header{
+      color: #333;
+      display: inline;
+      font-size: 24px;
+      line-height: 1.2085;
+      font-weight: 500;
+      letter-spacing: .015em;
+      font-family: "SF Pro Display",
+      "SF Pro Icons",
+      "Helvetica Neue",
+      Helvetica,
+      Arial,
+      sans-serif;
+      line-height: 36px;
+}
+
+
+
+.image-retail-storelist-hero-amsterdam {
+  background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_amsterdam_large.jpg");
+  background-size: 2560px 1074px;
+  width: 2560px;
+  height: 1074px;
+}
+
+.image-retail-storelist-hero{
+  width:100%;
+}
+.carousel-caption{
+  font-size: 2.25rem;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.72);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+  .image-retail-storelist-hero-amsterdam {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_amsterdam_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-retail-storelist-hero-amsterdam {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_amsterdam_medium.jpg");
+    background-size: 1068px 449px;
+    width: 1068px;
+    height: 449px;
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-retail-storelist-hero-amsterdam {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_amsterdam_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .image-retail-storelist-hero-amsterdam {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_amsterdam_small.jpg");
+    background-size: 735px 200px;
+    width: 735px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-retail-storelist-hero-amsterdam {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_amsterdam_small_2x.jpg");
+  }
+}
+
+.image-retail-storelist-hero-michiganave {
+  background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_michiganave_large.jpg");
+  background-size: 2560px 1074px;
+  width: 2560px;
+  height: 1074px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+  .image-retail-storelist-hero-michiganave {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_michiganave_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-retail-storelist-hero-michiganave {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_michiganave_medium.jpg");
+    background-size: 1068px 449px;
+    width: 1068px;
+    height: 449px;
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-retail-storelist-hero-michiganave {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_michiganave_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .image-retail-storelist-hero-michiganave {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_michiganave_small.jpg");
+    background-size: 735px 380px;
+    width: 735px;
+    height: 380px;
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-retail-storelist-hero-michiganave {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_michiganave_small_2x.jpg");
+  }
+}
+
+.page-storelist .section-hero .image-retail-find-a-store-hero-michiganave {
+  background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_michiganave_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-storelist .section-hero .image-retail-find-a-store-hero-michiganave {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_michiganave_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-storelist .section-hero .image-retail-find-a-store-hero-michiganave {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_michiganave_small.jpg");
+    background-size: auto;
+  }
+}
+
+.image-retail-storelist-hero-newyork {
+  background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_newyork_large.jpg");
+  background-size: 2560px 1074px;
+  width: 2560px;
+  height: 1074px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+  .image-retail-storelist-hero-newyork {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_newyork_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-retail-storelist-hero-newyork {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_newyork_medium.jpg");
+    background-size: 1068px 448px;
+    width: 1068px;
+    height: 448px;
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-retail-storelist-hero-newyork {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_newyork_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .image-retail-storelist-hero-newyork {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_newyork_small.jpg");
+    background-size: 735px 200px;
+    width: 735px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-retail-storelist-hero-newyork {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_newyork_small_2x.jpg");
+  }
+}
+
+.image-retail-storelist-hero-parc66 {
+  background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_parc66_large.jpg");
+  background-size: 2560px 1074px;
+  width: 2560px;
+  height: 1074px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+  .image-retail-storelist-hero-parc66 {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_parc66_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-retail-storelist-hero-parc66 {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_parc66_medium.jpg");
+    background-size: 1068px 449px;
+    width: 1068px;
+    height: 449px;
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-retail-storelist-hero-parc66 {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_parc66_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .image-retail-storelist-hero-parc66 {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_parc66_small.jpg");
+    background-size: 735px 380px;
+    width: 735px;
+    height: 380px;
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-retail-storelist-hero-parc66 {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_parc66_small_2x.jpg");
+  }
+}
+
+.image-retail-storelist-hero-unionsquare {
+  background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_unionsquare_large.jpg");
+  background-size: 2560px 1074px;
+  width: 2560px;
+  height: 1074px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+  .image-retail-storelist-hero-unionsquare {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_unionsquare_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-retail-storelist-hero-unionsquare {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_unionsquare_medium.jpg");
+    background-size: 1068px 449px;
+    width: 1068px;
+    height: 449px;
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-retail-storelist-hero-unionsquare {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_unionsquare_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .image-retail-storelist-hero-unionsquare {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_unionsquare_small.jpg");
+    background-size: 735px 380px;
+    width: 735px;
+    height: 380px;
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-retail-storelist-hero-unionsquare {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_unionsquare_small_2x.jpg");
+  }
+}
+
+.image-retail-storelist-hero-istanbul {
+  background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_istanbul_large.jpg");
+  background-size: 2560px 1074px;
+  width: 2560px;
+  height: 1074px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+  .image-retail-storelist-hero-istanbul {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_istanbul_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-retail-storelist-hero-istanbul {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_istanbul_medium.jpg");
+    background-size: 1068px 448px;
+    width: 1068px;
+    height: 448px;
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-retail-storelist-hero-istanbul {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_istanbul_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .image-retail-storelist-hero-istanbul {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_istanbul_small.jpg");
+    background-size: 735px 200px;
+    width: 735px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-retail-storelist-hero-istanbul {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_istanbul_small_2x.jpg");
+  }
+}
+
+.image-retail-storelist-retail-store-gallery-istanbul {
+  background-image: url("https://images.apple.com/ca/retail/storelist/images/retail_store_gallery_istanbul_large.jpg");
+  background-size: 1068px 449px;
+  width: 1068px;
+  height: 449px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+  .image-retail-storelist-retail-store-gallery-istanbul {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/retail_store_gallery_istanbul_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-retail-storelist-retail-store-gallery-istanbul {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/retail_store_gallery_istanbul_medium.jpg");
+    background-size: 768px 323px;
+    width: 768px;
+    height: 323px;
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-retail-storelist-retail-store-gallery-istanbul {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/retail_store_gallery_istanbul_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .image-retail-storelist-retail-store-gallery-istanbul {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/retail_store_gallery_istanbul_small.jpg");
+    background-size: 476px 200px;
+    width: 476px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-retail-storelist-retail-store-gallery-istanbul {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/retail_store_gallery_istanbul_small_2x.jpg");
+  }
+}
+
+.image-retail-storelist-hero-brussels {
+  background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_brussels_large.jpg");
+  background-size: 2560px 1074px;
+  width: 2560px;
+  height: 1074px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+  .image-retail-storelist-hero-brussels {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_brussels_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-retail-storelist-hero-brussels {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_brussels_medium.jpg");
+    background-size: 1068px 449px;
+    width: 1068px;
+    height: 449px;
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-retail-storelist-hero-brussels {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_brussels_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .image-retail-storelist-hero-brussels {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_brussels_small.jpg");
+    background-size: 735px 380px;
+    width: 735px;
+    height: 380px;
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .image-retail-storelist-hero-brussels {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_brussels_small_2x.jpg");
+  }
+}
+
+.page-storelist .section-hero .image-retail-find-a-store-hero-unionsquare {
+  background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_unionsquare_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-storelist .section-hero .image-retail-find-a-store-hero-unionsquare {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_unionsquare_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-storelist .section-hero .image-retail-find-a-store-hero-unionsquare {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_unionsquare_small.jpg");
+    background-size: auto;
+  }
+}
+
+.page-storelist .section-hero .image-retail-find-a-store-hero-parc66 {
+  background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_parc66_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-storelist .section-hero .image-retail-find-a-store-hero-parc66 {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_parc66_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-storelist .section-hero .image-retail-find-a-store-hero-parc66 {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_parc66_small.jpg");
+    background-size: auto;
+  }
+}
+
+.page-storelist .section-hero .image-retail-find-a-store-hero-brussels {
+  background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_brussels_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-storelist .section-hero .image-retail-find-a-store-hero-brussels {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_brussels_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-storelist .section-hero .image-retail-find-a-store-hero-brussels {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_brussels_small.jpg");
+    background-size: auto;
+  }
+}
+
+.page-storelist .section-hero .image-retail-find-a-store-hero-istanbul {
+  background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_istanbul_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-storelist .section-hero .image-retail-find-a-store-hero-istanbul {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_istanbul_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-storelist .section-hero .image-retail-find-a-store-hero-istanbul {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_istanbul_small.jpg");
+    background-size: auto;
+  }
+}
+
+.page-storelist .section-hero .image-retail-find-a-store-hero-amsterdam {
+  background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_amsterdam_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-storelist .section-hero .image-retail-find-a-store-hero-amsterdam {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_amsterdam_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-storelist .section-hero .image-retail-find-a-store-hero-amsterdam {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_amsterdam_small.jpg");
+    background-size: auto;
+  }
+}
+
+.page-storelist .section-hero .image-retail-find-a-store-hero-newyork {
+  background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_newyork_large.jpg");
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-storelist .section-hero .image-retail-find-a-store-hero-newyork {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_newyork_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-storelist .section-hero .image-retail-find-a-store-hero-newyork {
+    background-image: url("https://images.apple.com/ca/retail/storelist/images/hero_newyork_small.jpg");
+    background-size: auto;
+  }
+}
